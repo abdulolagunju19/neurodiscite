@@ -67,14 +67,14 @@ const Footer = () => {
           component={"a"}
           target="_blank"
           rel="noreferrer noopener"
-          href="https://satoruakiyama.com"
+          href="https://abneuro.vercel.app"
           justify="center"
           style={{
             textDecoration: "none",
           }}
         >
           <Typography className={classes.copylight}>
-            &copy;Satoru Akiyama
+            &copy;Abdul-Samad Olagunju
           </Typography>
         </Grid>
       </Container>

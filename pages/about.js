@@ -28,12 +28,12 @@ const About = () => {
   const classes = useStyles();
   // use your picture
   const avatar =
-    "https://images.ctfassets.net/atxm25972ze9/7y6t7fqxDPqJ21ZECdUV9D/0ace08faabfb401be8e89d689b04ae98/adult-1868750__340.jpg?h=250";
+    "/Aplysia_californica.jpg";
   return (
     <Layout
       // type your page title and page description.
-      title=" About | Template - Next.js and Material-UI with Header and Footer"
-      description="This is a Template using Next.js and Material-UI with Header and Footer."
+      title=" About | Neuroscience Discite"
+      description="This is a directory of neuroscience information."
     >
       <Container maxWidth="md">
         <Grid container direction="column" spacing={8}>
@@ -42,8 +42,7 @@ const About = () => {
               About
             </Typography>
             <Typography variant="h2" align="center">
-              This is a Template using Next.js and Material-UI with Header and
-              Footer.
+              Use this as a roadmap to learn more about neuroscience.
             </Typography>
           </Grid>
           <Grid item container spacing={2} alignItems="center">
@@ -60,26 +59,20 @@ const About = () => {
                 <Avatar alt="avatar" src={avatar} className={classes.avator} />
               </Grid>
               <Grid item>
-                <Typography variant="h3">John Doe</Typography>
+                <Typography variant="h3">Abdul-Samad Olagunju</Typography>
               </Grid>
               <Social color />
             </Grid>
             <Grid item container md={8}>
               <Typography variant="body1">
                 <br />
-                Contrary to popular belief, Lorem Ipsum is not simply random
-                text. It has roots in a piece of classical Latin literature from
-                45 BC, making it over 2000 years old. Richard McClintock, a
-                Latin professor at Hampden-Sydney College in Virginia, looked up
-                one of the more obscure Latin words, consectetur, from a Lorem
-                Ipsum passage, and going through the cites of the word in
-                classical literature, discovered the undoubtable source. Lorem
-                Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
-                Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,
-                written in 45 BC. This book is a treatise on the theory of
-                ethics, very popular during the Renaissance. The first line of
-                Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line
-                in section 1.10.32.
+                Neuroscience is the study of the nervous system. The nervous system is like an animal's electrical system,
+                transmitting signals throughout the body and neuroscience focuses on all aspects of how this system functions
+                including the structure and development. The ultimate goal of neuroscience is to understand the biology of the mind;
+                how the complex interactions of genes, proteins, neurons, and circuits can lead to the individuality of consciousness and behavior.
+                Recent advances have deepened our understanding of how the brain functions, 
+                and today neuroscientists from an vast array of disciplines employ a powerful arsenal of techniques to address the biology of the mind,
+                and to provide insight for treating the more than one thousand known associated medical disorders with the brain.
               </Typography>
             </Grid>
           </Grid>

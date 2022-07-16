@@ -3,8 +3,12 @@
   "version": "4.0.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
     "@material-ui/core": "latest",
     "@material-ui/icons": "^4.9.1",
+    "@mui/material": "^5.9.0",
+    "@pdftron/webviewer": "^8.6.1",
     "clsx": "latest",
     "next": "latest",
     "prop-types": "latest",

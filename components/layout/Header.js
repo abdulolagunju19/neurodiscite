@@ -17,6 +17,7 @@ import {
 } from "@material-ui/core";
 import useScrollTrigger from "@material-ui/core/useScrollTrigger";
 
+
 import MenuIcon from "@material-ui/icons/Menu";
 
 import { routes } from "data/routes";
@@ -176,7 +177,7 @@ const Header = () => {
             }}
           >
             <Link href="/">
-              <Typography className={classes.logo}>Material-UI</Typography>
+              <Typography className={classes.logo}>Neuro*Discite</Typography>
             </Link>
             {matches ? drawer : tabs}
           </Toolbar>
