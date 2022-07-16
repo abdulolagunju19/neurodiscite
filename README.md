@@ -1,2 +1,2 @@
-# Neurosceince Resource Directory
+# Neuroscience Resource Directory
 
